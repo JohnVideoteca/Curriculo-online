@@ -89,6 +89,14 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;  
 }
+.apresentacao__conteudo__titulo__certificado{
+    font-family: var(--font-titulo);
+    font-size: 1.45rem; 
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border: 1px solid var(--cor-roxo);
+    border-radius: 8px;
+}
 
 .apresentacao__conteudo__texto{
     font-family: var(--font-texto);
@@ -144,9 +152,8 @@ body{
 /* background-color: #6469FB; */
    display: flex;
    flex-direction: row;
-   justify-content: left;
+   justify-content: space-between;
    gap: 60px;
-   
    width: 80%;    
    border: 1px solid var(--cor-roxo);
    border-radius: 8px;
@@ -156,6 +163,21 @@ body{
    font-size: 1.15rem;
    padding: 20px ;
    text-decoration: none;
+}
+
+.certificados{  
+/* background-color: #6469FB; */
+  display: flex;
+  flex-direction:column;
+  justify-content: left;
+  gap:25px;
+  width: 100%; 
+  font-family: var(--font-texto);
+  text-align: left;
+  color: var(--cor-branco);
+  font-size: 1.15rem;
+  padding: 15px ;
+  text-decoration: none;
 }
 
 .imagem-de-perfil{
@@ -187,11 +209,7 @@ body{
         color: #777;
     }
     
-    .botao {
-        text-align: center;
-        margin-top: 20px;
-        
-    }
+
     
     .botao a {
         background-color: var(--cor-roxo);

@@ -213,7 +213,7 @@ body{
     
     .botao a {
         background-color: var(--cor-roxo);
-        color: var(--cor-branco);
+        color: var(--cor-preto);
         text-decoration: none;
         padding: 10px 20px;
         border-radius: 5px;

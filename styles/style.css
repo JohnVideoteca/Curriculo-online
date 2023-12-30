@@ -187,7 +187,7 @@ body{
 }
 
 .apresentacao__links__link:hover{
-    background-color: var(--cor-roxo);
+    background-color: var(--cor-preto);
     color: var(--cor-preto)
     
 }

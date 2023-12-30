@@ -1,246 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Ubuntu+Condensed&display=swap');
-
-:root{
-    --cor-preto: #202020;
-    --cor-branco: #f5f5f5;
-    --cor-roxo: #bba45a;
-    --cor-vermelho:#f5f5f5;
-    --cor-cinza: #979494; 
-
-    --font-titulo: 'Krona One', 'sans-serif';
-    --font-texto: 'Ubuntu Condensed', 'sans-serif';
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    /* height: 100vh; */
-   background-color: var(--cor-preto);
-    box-sizing: border-box;
-    color: var(--cor-branco)
-    
-}
-.cabecalho{
-    padding: 2% 0 0 15%;
-}
-.cabecalho__menu{
-    display: flex;
-    gap: 80px;
-}
-.cabecalho__menu__link{
-    font-family: var(--font-texto);
-    font-size: 1.52rem;
-    color: var(--cor-roxo);
-    text-decoration: none;
-
-}
-
-.cabecalho__menu__link__botao{
-    font-family: var(--font-texto);
-    font-size: 1.02rem;
-    color: var(--cor-roxo);
-    text-decoration: none;
-
-}
-.apresentacao{
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-   
-}
-
-.data__trabalho{
-    color: var(--cor-cinza);
-    gap: 45px;
-    font-family: var(--font-texto);
-}
-.apresentacao__conteudo{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 40px;
-    padding: 16px;
-    
-}
-
-.apresentacao_experiencia{
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-   
-}
-.apresentacao__conteudo__titulo{
-    font-family: var(--font-titulo);
-    font-size: 1.95rem; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-}    
-
-.apresentacao__conteudo__titulo__experiencia{
-    font-family: var(--font-titulo);
-    font-size: 1.45rem; 
-    padding-top: 10px;
-    padding-bottom: 10px;  
-}
-.apresentacao__conteudo__titulo__certificado{
-    font-family: var(--font-titulo);
-    font-size: 1.45rem; 
-    padding-top: 10px;
-    padding-bottom: 10px;  
-    border: 1px solid var(--cor-roxo);
-    border-radius: 8px;
-}
-
-.apresentacao__conteudo__texto{
-    font-family: var(--font-texto);
-    font-size: 1.52rem;
-  
-    padding-top: 20px;
-   
-    
-   
-}
-.destaque-titulo{
-    color: var(--cor-vermelho);
-    padding: 15px 0;
-    
-   
-}
-.destaque-texto{
-    color: var(--cor-roxo)
-    
-}
-
-.apresentacao__links{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items:center;
-    gap: 15px;
-    size: 9px;
-    padding: 25px 0;
-}
-
-.apresentacao__links__subtittulo{
-    font-family: var(--font-texto); 
-    padding-top: 35px;
-    padding-bottom: 5px;
-}
-
-.apresentacao__links__link{
-    /* background-color: #6469FB; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 16px;
-    width: 40%;    
-    border: 1px solid var(--cor-roxo);
-    border-radius: 8px;
-    font-family: var(--font-texto);
-    text-align: center;
-    color: var(--cor-preto);
-    font-size: 1.02rem;
-    padding: 20px 0;
-    text-decoration: none;
-}
-
-.experiencia{  
-/* background-color: #6469FB; */
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   gap: 70px;
-   width: 95%;    
-   border: 1px solid var(--cor-roxo);
-   border-radius: 8px;
-   font-family: var(--font-texto);
-   text-align: left;
-   color: var(--cor-branco);
-   font-size: 1.15rem;
-   padding: 45px ;
-   text-decoration: none;
-}
-
-.certificados{  
-/* background-color: #6469FB; */
-  display: flex;
-  flex-direction:column;
-  justify-content: left;
-  gap:25px;
-  width: 100%; 
-  font-family: var(--font-texto);
-  text-align: left;
-  color: var(--cor-branco);
-  font-size: 1.15rem;
-  padding: 15px ;
-  text-decoration: none;
-}
-
-.imagem-de-perfil{
-    width:60%;
-    border: 3px double var(--cor-roxo) ;
-    border-radius: 15px;    
-}
-
-.apresentacao__links__link:hover{
-    background-color: var(--cor-roxo);
-    color: var(--cor-preto)
-    
-}
-/*.rodape{
-    
-    font-family: var(--font-texto);
-    font-size: 1.52rem;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    
-}
-*/
-
-.rodape {
-    font-family: var(--font-texto);
-        text-align: center;
-        margin-top: 20px;
-        color: #777;
-    }
-    
-
-    
-    .botao a {
-        background-color: var(--cor-roxo);
-        color: var(--cor-preto);
-        text-decoration: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-weight: bold;   
-   
-}
-
-@media (max-width: 1200px){
-    .cabecalho{
-        padding: 10%;
-    }
-    .cabecalho__menu{
-        justify-content: center;
-    }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5;
-    }
-    
-   .apresentacao__conteudo{
-    width: auto;
-   }
-
-
-
-
-}
+<!DOCTYPE html>
+<html lang="pt=br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Certificados</title>
+        <link rel="stylesheet" href=".//styles/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="formacao.html">Formação</a>
+             
+                <a class="cabecalho__menu__link" href="certificados.html"> Certificados</a>
+            </nav>
+        </header> 
+<body>
+    <main class="apresentacao">
+        <section id="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Certificados<strong class="destaque-titulo">: </h1>
+               <div class="certificados">
+                 
+               <div>                
+                    <div class="botao ">
+                    <a href="https://cursos.alura.com.br/certificate/daf504b9-2063-4c72-af8e-2ecd3b57de6b?lang=pt_BR"> CSS: construindo layouts com Grid</a>
+                </div>
+                </div> 
+                <div>                    
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/c3cef415-3423-4ae0-80f2-1ba20888608e?lang=pt_BR"> CSS: Flexbox e layouts responsivos</a>
+                    </div>
+                </div> 
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/fb1ef0a9-4148-40c1-90ed-4ec5b10302c7?lang=pt_BR"> HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</a>
+                    </div>
+                </div> 
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/c24ec6bd-21d1-4a58-b5ad-f924dc797a51?lang=pt_BR"> HTML e CSS: cabeçalho, footer e variáveis CSS</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/9363aa49-a02e-4c61-97a1-749ddfdc03c2?lang=pt_BR"> HTML e CSS: Classes, posicionamento e Flexbox</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/4650ff59-b0be-4fd2-a80d-debec082c2eb?lang=pt_BR">HTML e CSS: praticando HTML/CSS</a>
+                    </div>
+                </div> 
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/40b7bab0-ae21-4dee-8bc6-4d1316f0bbf6?lang=pt_BR"> HTML e CSS: responsividade com mobile-first</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/31bcdada-55e2-432b-b84f-541c95734d9e?lang=pt_BR"> HTML e CSS: trabalhando com responsividade e publicação de projetos</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/bafb3d9d-3e52-4d6b-b8db-2c8d4413eae5?lang=pt_BR"> HTML5 e CSS3 parte 1: crie uma página da Web</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="botao">
+                    <a href="https://cursos.alura.com.br/certificate/24c75a79-ecf9-4515-98a1-385ad414e930?lang=pt_BR"> Tráfego pago: estratégias e aplicações</a>
+                    </div>
+                </div>
+                <div>                
+                    <div class="botao ">
+                    <a href="https://cursos.alura.com.br/certificate/4ac4569c-40c7-4b0c-9b88-4d08338b18e5?lang=pt_BR"> CorelDraw: Criando arte para o mundo impresso</a>
+                </div>
+                </div> 
+                   <div>                
+                    <div class="botao ">
+                    <a href="https://cursos.alura.com.br/certificate/bb5abc7c-ec14-47b2-bc2e-10e7cab8100c?lang=pt_BR"> CorelDraw: Criando arte para o mundo impresso</a>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
